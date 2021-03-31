@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Rest parameters</title></head>
+    <body>
+        <div style="font-size: 30px;">Look at the console!</div>
+        <script>
+            function userFriends(username,...friends)
+            {
+                console.log("Username:" +username);
+                console.log("User's friends: "+ friends);
+            }
+
+            userFriends('Sam','gilbert','rocky','ben','jimmy');
+        </script>
+    </body>
+</html>

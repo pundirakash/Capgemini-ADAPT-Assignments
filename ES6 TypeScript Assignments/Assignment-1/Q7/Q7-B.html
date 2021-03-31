@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head><title>De-structuring</title></head>
+    <body>
+        <h1>De-structuring Object</h1>
+        <div id="res"></div>
+        <script>
+            var organization= {
+                name: 'Capgemini',
+                address:{
+                    pincode: 123456
+                }
+            };
+
+            var {address: { pincode}} = organization;
+            document.getElementById("res").innerHTML = "Input Object: "+JSON.stringify(organization);
+            document.getElementById("res").innerHTML+= " <br> <br>Pincode: "+ pincode;
+        </script>
+    </body>
+</html>

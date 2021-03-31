@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Scoping</title></head>
+    <body>
+        <div style="font-size: 30px;">Look at the error in the console!</div>
+        <script>
+            function scoping()
+            {
+                var value=10;
+                if(value==10)
+                {
+                    let num=20;
+                }
+                return num;   // not defined error: let has block level scope
+            }
+            scoping();
+        </script>
+    </body>
+</html>

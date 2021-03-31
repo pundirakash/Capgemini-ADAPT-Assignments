@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Enhanced Object Properties</title>
+    </head>
+    <body>
+        <div style="font-size: 30px;">Look at the console!</div>
+        <script>
+            var Order={
+                id:1,
+                title:'Batteries',
+                Price: 300,
+                printOrder(){
+                    return {id:this.id,title:this.title,Price:this.Price};
+                },
+                getPrice(){
+                    return this.Price;
+                }
+            };
+            var target={};
+            Object.assign(target,Order);
+            console.log(target);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+.header {
+    height: 100px;
+}
+
+.brand {
+    overflow-x: hidden;
+    min-width: 300px;
+    text-align: center;
+    width: 100%;
+}
+
+.brand-icon {
+    color: whitesmoke;
+    vertical-align: middle;
+}
+
+.brand-text {
+    color:  whitesmoke;
+    font-size: 2rem;
+    margin-left: 20px;
+    vertical-align: middle;
+}

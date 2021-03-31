@@ -1,0 +1,36 @@
+
+
+.daily-weather-card {
+    height: 170px- 20px;
+    text-align: center;
+}
+
+.daily-weather-card .icon {
+    height: 50px;
+    max-width: 50px;
+}
+
+.daily-weather-display {
+    background-color: #CFD8DC;
+    height:170px;
+    position: relative;
+    width: 100%;
+}
+
+.daily-weather-display .carousel {
+    background-color: #CFD8DC;
+    position: absolute;
+    width: 100%;
+}
+
+.daily-weather-display .carousel-nav {
+    cursor: pointer;
+    line-height: 170px - 20px;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 10;
+}
+
+.daily-weather-display .carousel-nav > i {
+    vertical-align: middle;
+}
